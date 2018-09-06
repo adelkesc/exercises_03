@@ -24,13 +24,13 @@ Create another extension method for the `List` class that shuffles the list.
 
 Create a `Player` class which has three overloaded `Shout` methods. The first `Shout` method should take a `string` as argument, the second an `integer` and the third an `Enemy` object.
 
-The first `Shout` method should print the `string` provided, the second should print *“[int] is my lucky number!”* and the third should print *“The damage this enemy can do to me is [Damage]”*. Test the overloaded methods of your `Player` in the main method of your program.
+The first `Shout` method should print the `string` provided, the second should print *"[int] is my lucky number!"* and the third should print *"The damage this enemy can do to me is [Damage]"*. Test the overloaded methods of your `Player` in the main method of your program.
 
 
 ## Exercise 5, Operator Overloading
 
 Create a `Time` class with two `integer` properties, `Hours` and `Minutes`. Overload the **+** operator so that it adds two `Time` objects, returning a new `Time` object. Create another overload method that adds an `integer` value (in minutes) to a `Time` object and returns a new `Time` object.
-Override the `ToString` method so that printing a `Time` object to the console displays *“Hours: X, Minutes: Y”*
+Override the `ToString` method so that printing a `Time` object to the console displays *"Hours: X, Minutes: Y"*
 
 ## Exercise 6, Ternary Operator
 
@@ -40,15 +40,15 @@ Rewrite the code below to use the ternary operator (`?:`)
 
 ```csharp
     int score = 42;
-    string message =””;
+    string message = "";
 
     if (score > 1337)
     {
-        message = “This is a new highscore!”;
+        message = "This is a new highscore!";
     }
     else
     {
-        message = “You need more points to beat the highscore!”;
+        message = "You need more points to beat the highscore!";
     }
     print(message);
 ```
@@ -60,9 +60,9 @@ Implement an `Add` method of a `Calculator` class that can take either an array 
 
 
 ## Exercise 8, Delegates
-Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodBye` that prints *“Hello [name]”* and *“Goodbye [name]”*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
+Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodBye` that prints *"Hello [name]"* and *"Goodbye [name]"*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
 
-Use the `notifier` delegate to first print *“Hello [name]”* to the console when the application is run. Next, modify the code so that *“Goodbye [name]”* is printed instead. Lastly, modify and add to the code so that *“Hello [name]”* and *“Goodbye [name]”* are both printed to the console.
+Use the `notifier` delegate to first print *"Hello [name]"* to the console when the application is run. Next, modify the code so that *"Goodbye [name]"* is printed instead. Lastly, modify and add to the code so that *"Hello [name]"* and *"Goodbye [name]"* are both printed to the console.
 
 
 ## Exercise 9, Lambda-expressions
