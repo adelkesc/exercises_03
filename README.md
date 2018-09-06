@@ -78,7 +78,3 @@ You should create a lambda expression for each condition above and test your pro
 
 ## Predicate<T> delegates, Action<>/Func<>
 Todo
-
-<!-- ## Events -->
-<!-- [todo: funny achievement system when you write stuff in the console] -->
-
