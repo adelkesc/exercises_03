@@ -74,7 +74,7 @@ Use lambda expressions in combination with the `FindAll()` method of the `List` 
 * a fuel economy lower than some value
 * a condition combining 2 or more properties
 
-You should create a lambda expression for each condition above and test your program by printing the results to the terminal one by one.
+You should create a lambda expression for each condition above and test your lambda expressions one by one by printing the results to the terminal.
 
 ## Predicate<T> delegates, Action<>/Func<>
 Todo
