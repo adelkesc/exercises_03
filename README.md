@@ -32,11 +32,7 @@ The first `Shout` method should print the `string` provided, the second should p
 Create a `Time` class with two `integer` properties, `Hours` and `Minutes`. Overload the **+** operator so that it adds two `Time` objects, returning a new `Time` object. Create another overload method that adds an `integer` value (in minutes) to a `Time` object and returns a new `Time` object.
 Override the `ToString` method so that printing a `Time` object to the console displays *“Hours: X, Minutes: Y”*
 
-
-## Attributes
-Todo
-
-## Ternary Operator
+## Exercise 6, Ternary Operator
 
 Rewrite the code below to use the ternary operator (`?:`) 
 
@@ -58,20 +54,31 @@ Rewrite the code below to use the ternary operator (`?:`)
 ```
 Verify that rewritten code works by testing it in the console….
 
-## Lambda-expressions
-Todo
 
-## Params modifier
+## Exercise 7, Params modifier
 Implement an `Add` method of a `Calculator` class that can take either an array of `integers`, or an arbitrary amount of `integers` as argument (hint: use the `params` modifier). Test your method by printing some results to the console.
 
-## Delegates
+
+## Exercise 8, Delegates
 Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodBye` that prints *“Hello [name]”* and *“Goodbye [name]”*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
 
 Use the `notifier` delegate to first print *“Hello [name]”* to the console when the application is run. Next, modify the code so that *“Goodbye [name]”* is printed instead. Lastly, modify and add to the code so that *“Hello [name]”* and *“Goodbye [name]”* are both printed to the console.
 
+
+## Exercise 9, Lambda-expressions
+Create a class `Car` with at least the properties `Color`, `EngineSize` and `FuelEconomy` (in liters pr 100km). Override `ToString()` so that it prints the properties of the car. Create a `List` of 3 or more cars with varying properties. 
+
+Use lambda expressions in combination with the `FindAll()` method of the `List` instance to find all cars that matches the following:
+* a particular color
+* an engine size bigger than some value
+* a fuel economy lower than some value
+* a condition combining 2 or more properties
+
+You should create a lambda expression for each condition above and test your program by printing the results to the terminal one by one.
+
 ## Predicate<T> delegates, Action<>/Func<>
 Todo
 
-## Events
-[todo: funny achievement system when you write stuff in the console]
+<!-- ## Events -->
+<!-- [todo: funny achievement system when you write stuff in the console] -->
 
