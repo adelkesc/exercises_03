@@ -8,9 +8,7 @@ Using the generic `Stack` class (in `System.Collections.Generic`), create an emp
 
 ## Exercise 2, Interfaces and Generics
 
-Declare a generic interface `IExplodable<T>` that contains `Explode(T radius)` and `Countdown(float time)` methods. Create a class `Bomb` that implements this interface. Provide an implementation for the methods such that the program will start a countdown timer and explode with a big bang in the end, writing the size of the explosion to the console!
-
-*Consider: Why use interfaces rather than just inheritance?*
+Declare a generic interface `IExplodable<T>` that contains a `void Explode(T radius)` method. Create a class `Bomb` that implements this interface. Provide an implementation for the `Explode` method such that a program that uses an instance of the `Bomb` class can explode the instance by providing a double to the `Explode` method, writing "Boom!" and the size of the explosion to the console.
 
 
 ## Exercise 3, Extension methods
@@ -22,7 +20,7 @@ Create another extension method for the `List` class that shuffles the list.
 
 ## Exercise 4, Method Overloading
 
-Create a `Player` class which has three overloaded `Shout` methods. The first `Shout` method should take a `string` as argument, the second an `integer` and the third an `Enemy` object.
+Create a `Player` class which has three overloaded `Shout` methods. The first `Shout` method should take a `string` as argument, the second an `integer` and the third an `Enemy` object (Enemy being a simple class containing an `int Damage` property).
 
 The first `Shout` method should print the `string` provided, the second should print *"[int] is my lucky number!"* and the third should print *"The damage this enemy can do to me is [Damage]"*. Test the overloaded methods of your `Player` in the main method of your program.
 
@@ -34,9 +32,7 @@ Override the `ToString` method so that printing a `Time` object to the console d
 
 ## Exercise 6, Ternary Operator
 
-Rewrite the code below to use the ternary operator (`?:`) 
-
-(you should be able to condense the if-else logic into one line).
+Rewrite the code below to use the ternary operator (`?:`) (you should be able to condense the if-else logic into one line).
 
 ```csharp
     int score = 42;
@@ -76,5 +72,7 @@ Use lambda expressions in combination with the `FindAll()` method of the `List` 
 
 You should create a lambda expression for each condition above and test your lambda expressions one by one by printing the results to the terminal.
 
-## Predicate<T> delegates, Action<>/Func<>
-Todo
+## Exercise 10, Predicate<T> delegates
+Create a Book class with at least the properties Title, Genre and Pages. Create a predicate method that takes a Book as argument and checks if the book has more than 100 pages.
+
+Test your predicate delegate method by writing a test that creates a list of 10 books and then uses the FindAll method of the List class to find only Books that are more than 100 pages long. Write these books to the console.
