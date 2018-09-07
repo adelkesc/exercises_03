@@ -62,17 +62,14 @@ Use the `notifier` delegate to first print *"Hello [name]"* to the console when 
 
 
 ## Exercise 9, Lambda-expressions
-Create a class `Car` with at least the properties `Color`, `EngineSize` and `FuelEconomy` (in liters pr 100km). Override `ToString()` so that it prints the properties of the car. Create a `List` of 3 or more cars with varying properties. 
+Create a class `Car` with at least the properties `Color`, `EngineSize` and `FuelEconomy` (in liters pr 100km). Override `ToString()` so that it prints the properties of the car. Create a `List` of three or more cars with varying properties.
 
-Use lambda expressions in combination with the `FindAll()` method of the `List` instance to find all cars that matches the following:
+Create a predicate method that takes a `Car` as argument and checks if the car is a particular color. Use the predicate method in combination with the `FindAll()` method of the `List` instance to find all cars of that color in your list and then print them to the terminal.
+
+Replace your predicate method with lambda expressions to find all cars that match the following:
 * a particular color
 * an engine size bigger than some value
 * a fuel economy lower than some value
 * a condition combining 2 or more properties
 
 You should create a lambda expression for each condition above and test your lambda expressions one by one by printing the results to the terminal.
-
-## Exercise 10, Predicate<T> delegates
-Create a Book class with at least the properties Title, Genre and Pages. Create a predicate method that takes a Book as argument and checks if the book has more than 100 pages.
-
-Test your predicate delegate method by writing a test that creates a list of 10 books and then uses the FindAll method of the List class to find only Books that are more than 100 pages long. Write these books to the console.
