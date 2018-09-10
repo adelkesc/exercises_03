@@ -46,7 +46,6 @@ Rewrite the code below to use the ternary operator (`?:`) (you should be able to
     {
         message = "You need more points to beat the highscore!";
     }
-    print(message);
 ```
 Verify that rewritten code works by testing it in the console….
 
