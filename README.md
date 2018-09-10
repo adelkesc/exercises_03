@@ -22,7 +22,7 @@ Create another extension method for the `List` class that shuffles the list.
 
 Create a `Player` class which has three overloaded `Shout` methods. The first `Shout` method should take a `string` as argument, the second an `integer` and the third an `Enemy` object (Enemy being a simple class containing an `int Damage` property).
 
-The first `Shout` method should print the `string` provided, the second should print *"[int] is my lucky number!"* and the third should print *"The damage this enemy can do to me is [Damage]"*. Test the overloaded methods of your `Player` in the main method of your program.
+The first `Shout` method should print the `string` provided, the second should print *"[int] is my lucky number!"* and the third should print *"The enemy can do [Damage] damage to me."*. Test the overloaded methods of your `Player` in the main method of your program.
 
 
 ## Exercise 5, Operator Overloading
