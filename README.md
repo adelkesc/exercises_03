@@ -56,7 +56,7 @@ Implement an `Add` method of a `Calculator` class that can take either an array 
 
 
 ## Exercise 8, Delegates
-Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodBye` that prints *"Hello [name]"* and *"Goodbye [name]"*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
+Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodbye` that prints *"Hello [name]"* and *"Goodbye [name]"*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
 
 Use the `notifier` delegate to first print *"Hello [name]"* to the console when the application is run. Next, modify the code so that *"Goodbye [name]"* is printed instead. Lastly, modify and add to the code so that *"Hello [name]"* and *"Goodbye [name]"* are both printed to the console.
 
