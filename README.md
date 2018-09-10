@@ -51,7 +51,7 @@ Verify that rewritten code works by testing it in the console….
 
 
 ## Exercise 7, Params modifier
-Implement an `Add` method of a `Calculator` class that can take either an array of `integers`, or an arbitrary amount of `integers` as argument (hint: use the `params` modifier). Test your method by printing some results to the console.
+Implement an `Add` method of a `Calculator` class that can take either an array of `integers`, or an arbitrary amount of `integers` as argument (hint: use the `params` keyword). Test your method by printing some results to the console.
 
 
 ## Exercise 8, Delegates
