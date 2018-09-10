@@ -13,7 +13,7 @@ Declare a generic interface `IExplodable<T>` that contains a `void Explode(T rad
 
 ## Exercise 3, Extension methods
 
-Create an extension method for the `List` class that returns a random item from the list.
+Create an extension method for the `List` class that returns a random item from the list. The extension method should work on lists of any type.
 
 Create another extension method for the `List` class that shuffles the list.
 
