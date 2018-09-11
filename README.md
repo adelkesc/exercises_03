@@ -42,19 +42,23 @@ Rewrite the code below to use the ternary operator (`?:`) (you should be able to
         message = "You need more points to beat the highscore!";
     }
 ```
+
 Verify that rewritten code works by testing it in the console….
 
 ## Exercise 7, Delegates
+
 Create a `notifier` delegate that takes a `string` as an argument and returns `void`. Implement two methods, `SayHello` and `SayGoodbye` that prints *"Hello [name]"* and *"Goodbye [name]"*, respectively, to the console. The methods should be compatible with the `notifier` delegate. 
 
 Use the `notifier` delegate to first print *"Hello [name]"* to the console when the application is run. Next, modify the code so that *"Goodbye [name]"* is printed instead. Lastly, modify and add to the code so that *"Hello [name]"* and *"Goodbye [name]"* are both printed to the console.
 
 ## Exercise 8, Lambda-expressions
+
 Create a class `Car` with at least the properties `Color`, `EngineSize` and `FuelEconomy` (in liters pr 100km). Override `ToString()` so that it prints the properties of the car. Create a `List` of three or more cars with varying properties.
 
 Create a predicate method that takes a `Car` as argument and checks if the car is a particular color. Use the predicate method in combination with the `FindAll()` method of the `List` instance to find all cars of that color in your list and then print them to the terminal.
 
 Replace your predicate method with lambda expressions to find all cars that match the following:
+
 * a particular color
 * an engine size bigger than some value
 * a fuel economy lower than some value
