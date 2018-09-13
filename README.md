@@ -1,4 +1,4 @@
-# DNP Exercises week 03 - Advanced C#
+# DNP Exercises 03 - Advanced C#
 
 ## Exercise 1, Method Overloading
 
